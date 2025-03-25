@@ -7,7 +7,14 @@
         Title="AvaloniaApplication1">
     
         <StackPanel>
-                <Button>Hello world!</Button>
+                
+                <TextBlock HorizontalAlignment="Center">Add a task!</TextBlock>
+              
+                <TextBlock Name="Tasks" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
+                <Button Name = "Add_Task" Click = "Add_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom">Add task</Button>
+                <Button Name = "Remove_Task" HorizontalAlignment="Center" VerticalAlignment="Bottom">Remove a task</Button>
+                
+              
         </StackPanel>
     
     
