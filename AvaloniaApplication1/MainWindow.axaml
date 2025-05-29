@@ -11,9 +11,10 @@
                 <TextBlock HorizontalAlignment="Center">Add a task!</TextBlock>
               
                 <TextBlock Name="Tasks" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
-                <Button Name = "Add_Task" Click = "Add_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom">Add task</Button>
-                <Button Name = "Remove_Task" HorizontalAlignment="Center" VerticalAlignment="Bottom">Remove a task</Button>
-                
+                <Button Name = "Add_Task" Click = "Add_Click" HorizontalAlignment="Center">Add task</Button>
+                <Button Name="Remove_Task" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Remove_Click">Remove a task</Button>
+
+<!--Two stackpanels, one for interaction another for ui-->
               
         </StackPanel>
     
