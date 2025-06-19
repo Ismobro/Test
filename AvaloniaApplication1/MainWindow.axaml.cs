@@ -5,8 +5,8 @@ using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Layout;
-using Avalonia.Media; 
-
+using Avalonia.Media;
+using System.Media;
 namespace AvaloniaApplication1;
 
 public partial class MainWindow : Window
@@ -142,6 +142,7 @@ public partial class MainWindow : Window
         /*if button clicked, that corrosponding list element is removed from tasklist,
          and x (the textblock) is reinitialized using tasklist, and listBoxTasks should be removed.*/
     }
+
 
 
 
