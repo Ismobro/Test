@@ -1,2 +1,2 @@
-# Test
-Test for Coursera web development course.
+#To Do List & others
+Where I'm messing around with different projects
